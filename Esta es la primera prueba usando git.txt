@@ -2,4 +2,6 @@ Esta es la primera prueba usando git
 un interesante controlador de versiones,
 el cual soy nuevo implementando.
 
-estoy realizando el primer cambio al archivo.
+estoy realizando el primer cambio al archivo,
+los comandos son realmente deficiles de momerizar,pues usa la misma sintaxys que linux y los comandos del cmd de windows.
+En serio que este controlador de versiones es complejo.
