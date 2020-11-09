@@ -4,4 +4,4 @@ el cual soy nuevo implementando.
 
 estoy realizando el primer cambio al archivo,
 los comandos son realmente deficiles de momerizar,pues usa la misma sintaxys que linux y los comandos del cmd de windows.
-En serio que este controlador de versiones es complejo.
+En serio que este controlador de versiones es complejo,aun que comienzo a entenderlo un poco,pero la verdad memorizar comandos es un poco tedioso.
