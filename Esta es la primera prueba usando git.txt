@@ -6,4 +6,5 @@ estoy realizando el primer cambio al archivo,
 los comandos son realmente deficiles de momerizar,pues usa la misma sintaxys que linux y los comandos del cmd de windows.
 En serio que este controlador de versiones es complejo,aun que comienzo a entenderlo un poco,pero la verdad memorizar comandos es un poco tedioso.
 
-Estoy creando una pagina con html y css para seguir practicando con git.
+Estoy creando una pagina con html y css para seguir practicando con git.Justo ahora ya estoy usando Github,si hubiese aprendido a usar 
+mucho antes un controlador de versiones como git me hubiese ahorrado muchos problemas.
