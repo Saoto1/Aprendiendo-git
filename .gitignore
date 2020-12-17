@@ -1,0 +1,4 @@
+#se crean comenatrios con el signo "#",puedes englobar archvios con un "*" antes de la extension del archivo.
+#ejemplo *.jpg (esto ignoraria todos los archivos que terminen en ".jpg".
+#se pueden crear expeciones de ignorar,Ejemplo de todos los .jpg no ignores el 1.jpg para ellos usamos "!imagenes/1.jpg".
+#para inorar algo solo colocamos la carpeta y el nombre del archivo ejemplo "imagenes/2.jpg" 
