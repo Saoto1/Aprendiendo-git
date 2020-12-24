@@ -8,3 +8,5 @@ En serio que este controlador de versiones es complejo,aun que comienzo a entend
 
 Estoy creando una pagina con html y css para seguir practicando con git.Justo ahora ya estoy usando Github,si hubiese aprendido a usar 
 mucho antes un controlador de versiones como git me hubiese ahorrado muchos problemas.
+
+estoy probando git rebase o mas bien "Rebase"
