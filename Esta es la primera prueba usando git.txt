@@ -10,3 +10,7 @@ Estoy creando una pagina con html y css para seguir practicando con git.Justo ah
 mucho antes un controlador de versiones como git me hubiese ahorrado muchos problemas.
 
 estoy probando git rebase o mas bien "Rebase"
+
+probe el "stash" que es como un control + Z pero en git.
+
+probe que "git clean que es muy util la verdad,borra las copias de archivos que tengas,exceptuando carpetas y archivos que este enlistados dentros de git,funciona usando el comando "git clean --dry-run para ver lo que se va a borrar y se confirma el borrado con "git clean -f"
