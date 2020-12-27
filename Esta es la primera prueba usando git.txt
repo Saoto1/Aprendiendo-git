@@ -18,3 +18,7 @@ probe que "git clean que es muy util la verdad,borra las copias de archivos que 
 Use el git --amend que es para emendar algun error que tuviste en el ultimo commit creado,por supuesto este comando no crea otro commit modifica el ultimo que se creo.
 
 Aprendi el super util comando de git reflog que muestra el historial de absolutamente todo lo que se hace en git,luego use el comando git reset --hard que me sirvio para enmendar un error en el cual borre archivos,volvio en el tiempo a otro a commit donde no habia borrado nada.
+
+Git grep me sirve para buscar palabras dentro de mis repositorio ejemplo git grep color,git grep -n color me dice en que lineas use esa palabra,
+git grep -c paltzi me sirve para saber cuantas veces use la palabra platzi,git grep -c “<p>” me sirve para saber cuntas veces use esa etiquete(cuando es codigo siempre debe colocarse entre comillas),git log-S “cabecera” sirve para saber cuantas veces use la palabra cabecera en todos los commit.grep–> para los archivos
+log --> para los commits.
