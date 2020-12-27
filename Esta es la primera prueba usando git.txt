@@ -13,4 +13,6 @@ estoy probando git rebase o mas bien "Rebase"
 
 probe el "stash" que es como un control + Z pero en git.
 
-probe que "git clean que es muy util la verdad,borra las copias de archivos que tengas,exceptuando carpetas y archivos que este enlistados dentros de git,funciona usando el comando "git clean --dry-run para ver lo que se va a borrar y se confirma el borrado con "git clean -f"
+probe que "git clean que es muy util la verdad,borra las copias de archivos que tengas,exceptuando carpetas y archivos que este enlistados dentros de git,funciona usando el comando "git clean --dry-run para ver lo que se va a borrar y se confirma el borrado con "git clean -f".
+
+Use el git --amend que es para emendar algun error que tuviste en el ultimo commit creado,por supuesto este comando no crea otro commit modifica el ultimo que se creo.
