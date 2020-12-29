@@ -9,6 +9,8 @@ En serio que este controlador de versiones es complejo,aun que comienzo a entend
 Estoy creando una pagina con html y css para seguir practicando con git.Justo ahora ya estoy usando Github,si hubiese aprendido a usar 
 mucho antes un controlador de versiones como git me hubiese ahorrado muchos problemas.
 
+para crear una conexion desde mi git local hasta mis repositorios de github,se debe crear una llave ssh con lo que se conecta mi pc con mi cuenta de github,por ende puedo comenzar a realizar pull y push a mis repositorios.
+
 estoy probando git rebase o mas bien "Rebase"
 
 probe el "stash" que es como un control + Z pero en git.
