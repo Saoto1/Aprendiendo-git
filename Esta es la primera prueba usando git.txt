@@ -47,4 +47,6 @@ mucho antes un controlador de versiones como git me hubiese ahorrado muchos prob
  git branch -a = se muestran todas las ramas tanto locales como remotas.
  
  13-con git puedes hacer deployment a un servidor,desde tu repositorio de githbu y hostear tu pagina o programa.
+ 
+ 14-"merge" merge funciona para fusionar dos ramas en git,fucionando cambios o codigo en un mismo archivo,en si esta funcion nos permite trabajar en grupo.
 
