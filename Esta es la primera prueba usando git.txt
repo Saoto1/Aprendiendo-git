@@ -9,28 +9,42 @@ En serio que este controlador de versiones es complejo,aun que comienzo a entend
 Estoy creando una pagina con html y css para seguir practicando con git.Justo ahora ya estoy usando Github,si hubiese aprendido a usar 
 mucho antes un controlador de versiones como git me hubiese ahorrado muchos problemas.
 
-para crear una conexion desde mi git local hasta mis repositorios de github,se debe crear una llave ssh con lo que se conecta mi pc con mi cuenta de github,por ende puedo comenzar a realizar pull y push a mis repositorios.
+----para crear una conexion desde mi git local hasta mis repositorios de github,se debe crear una llave ssh con lo que se conecta mi pc con mi cuenta de github,por ende puedo       comenzar a realizar pull y push a mis repositorios.
 
-estoy probando git rebase o mas bien "Rebase"
+1-"git clone aqui se coloca el enlace del repo a copiar " con este comando podemos traer un repositorio de github a nuestra git local.
 
-probe el "stash" que es como un control + Z pero en git.
+2-"Git status" estos nos muestra el estado de nuestro repositorio local,para ver si hay archivos sin agregar o no.
 
-probe que "git clean que es muy util la verdad,borra las copias de archivos que tengas,exceptuando carpetas y archivos que este enlistados dentros de git,funciona usando el comando "git clean --dry-run para ver lo que se va a borrar y se confirma el borrado con "git clean -f".
+3-"git commit -am "mensaje del commit" haciendo commit guardamos cambios,estos cambios se van a almacenar en la historia del repositorio.
 
-Use el git --amend que es para emendar algun error que tuviste en el ultimo commit creado,por supuesto este comando no crea otro commit modifica el ultimo que se creo.
+4-"tags" con este comando podemos crear puntos de version en nuestro proyecto,es decir una version 1.0 o 2.0 etc.
 
-Aprendi el super util comando de git reflog que muestra el historial de absolutamente todo lo que se hace en git,luego use el comando git reset --hard que me sirvio para enmendar un error en el cual borre archivos,volvio en el tiempo a otro a commit donde no habia borrado nada.
+5-"Pull reques" esta funcion es solo de github,sirve para resaltar un error y hacer el llamado a los colaboradores del repositorio,para debatir y corregir el error.
 
-Git grep me sirve para buscar palabras dentro de mis repositorio ejemplo git grep color,git grep -n color me dice en que lineas use esa palabra,
-git grep -c paltzi me sirve para saber cuantas veces use la palabra platzi,git grep -c “<p>” me sirve para saber cuntas veces use esa etiquete(cuando es codigo siempre debe colocarse entre comillas),git log -S “cabecera” sirve para saber cuantas veces use la palabra cabecera en todos los commit.grep–> para los archivos
-log --> para los commits.
+6-estoy probando git rebase o mas bien "Rebase"
 
-git shortlog -sn = muestra cuantos commit han hecho cada miembros del equipo.
-git shortlog -sn --all = muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado
-git shortlog -sn --all --no-merge = muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges
-git blame ARCHIVO = muestra quien hizo cada cosa linea por linea
-git COMANDO --help = muestra como funciona el comando.
-git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
-**git branch -r **= se muestran todas las ramas remotas
-git branch -a = se muestran todas las ramas tanto locales como remotas.
+7-probe el "stash" que es como un control + Z pero en git.
+
+8-probe que "git clean que es muy util la verdad,borra las copias de archivos que tengas,exceptuando carpetas y archivos que este enlistados dentros de git,funciona usando el comando "git clean --dry-run para ver lo que se va a borrar y se confirma el borrado con "git clean -f".
+
+9-Use el git --amend que es para emendar algun error que tuviste en el ultimo commit creado,por supuesto este comando no crea otro commit modifica el ultimo que se creo.
+
+10-Aprendi el super util comando de git reflog que muestra el historial de absolutamente todo lo que se hace en git,luego use el comando git reset --hard que me sirvio para enmendar un error en el cual borre archivos,volvio en el tiempo a otro a commit donde no habia borrado nada.
+
+11-Git grep me sirve para buscar palabras dentro de mis repositorio ejemplo git grep color,git grep -n color me dice en que lineas use esa palabra,
+  git grep -c paltzi me sirve para saber cuantas veces use la palabra platzi,git grep -c “<p>” me sirve para saber cuntas veces use esa etiquete
+  (cuando es codigo siempre debe    colocarse entre comillas),git log -S “cabecera” sirve para saber cuantas veces use la palabra
+  cabecera en todos los commit.grep–> para los  archivos
+  log --> para los commits.
+
+12-git shortlog -sn = muestra cuantos commit han hecho cada miembros del equipo.
+ git shortlog -sn --all = muestra cuantos commit han hecho cada miembros del equipo hasta los que han sido eliminado
+ git shortlog -sn --all --no-merge = muestra cuantos commit han hecho cada miembros quitando los eliminados sin los merges
+ git blame ARCHIVO = muestra quien hizo cada cosa linea por linea
+ git COMANDO --help = muestra como funciona el comando.
+ git blame ARCHIVO -Llinea_inicial,linea_final= muestra quien hizo cada cosa linea por linea indicándole desde que linea ver ejemplo -L35,50
+ **git branch -r **= se muestran todas las ramas remotas
+ git branch -a = se muestran todas las ramas tanto locales como remotas.
+ 
+ 13-con git puedes hacer deployment a un servidor,desde tu repositorio de githbu y hostear tu pagina o programa.
 
